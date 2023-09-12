@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f0c6
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.logo {
+    font: 900;
+    font-size: large;
+    font-family: serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.nav-itens {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.nav-itens>li a{
+    padding-left: 20px;
+    color: #202020;
+}
+.carrinho {
+    border: black;
+}
+.content {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+    padding: 1rem;
+}
+
+.best-sellers{
+    
+    list-style: none;
+}
+
+.classicos{
+   
+    list-style: none;
+}
+
+.classicos img{
+    width: 150px;
+    height: 150px;
+}
+
+.best-sellers img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.livro-single{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.livro-single-home{
+    margin-top: 15px;
+    display: grid;
+}
+
+.suspense img{    
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.suspense{
+    list-style: none;
+}
+
+.romance img{
+    width: 150px;
+    height: 150px;   
+}
+
+.romance{
+    list-style: none;
+}
+
+.biografia img{
+    width: 150px;
+    height: 150px;  
+}
+
+.biografia{
+    list-style: none;
+}
